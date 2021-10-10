@@ -36,11 +36,11 @@ to solve real purpose problems of extracting large information from websites.
    
    Then install libraries 
    ```bash
-  node install minimist
-  node install axios
-  node install pdf-lib
-  node install excel4node
-  node install jsdom
+  npm install minimist
+  npm install axios
+  npm install pdf-lib
+  npm install excel4node
+  npm install jsdom
   
   ```
   
