@@ -7,6 +7,7 @@ to solve real purpose problems of extracting large information from websites.
 ## TECH STACK USED
  -  JAVASCRIPT
  -  NPM Modules
+    -  Minimist--> Takes command line arguments
     -  Axios--> For making http request <br>
     -  JSDOM--> For getting information from dom tree
     -  EXCEL4NODE--> Used to make excel filr
@@ -29,6 +30,25 @@ to solve real purpose problems of extracting large information from websites.
 
 ## TEMPLATE AFTER
 ![image](https://user-images.githubusercontent.com/73028420/136662761-076358f4-e672-4c5e-b79e-2edba1223caa.png)
+
+## TO RUN THIS ON YOUR LOCAL
+   First fork this to your profile, then clone it to your desktop
+   
+   Then install libraries 
+   ```bash
+  node install minimist
+  node install axios
+  node install pdf-lib
+  node install excel4node
+  node install jsdom
+  
+  ```
+  
+  To run this project use this command
+  
+  ```bash
+  node --source="https://www.espncricinfo.com/series/icc-cricket-world-cup-2019-1144415?ex_cid=ipl2021:google_cpc:search:dsa_feed:msn&gclid=Cj0KCQjw-4SLBhCVARIsACrhWLVv_gGK-NVT1D36fINNofAKdPwIUdjuwmCWE-PuMJCRl3rGClYu5N4aAuJWEALw_wcB" --dataFolder=data --excel=WorldCup.csv
+ ```
 
 ## CONTACT
 In case of any suggestions or enquires, feel free to reach out to me.
