@@ -20,6 +20,14 @@ to solve real purpose problems of extracting large information from websites.
  Making of excel file and adding important stuff in that excel using excel4node library
  Making pdf and making changes to Template pdf using pdf-lib library.
  
+ ## EXTRACTED INFORMATION USING JSDOM LOOKS LIKE THIS
+ But we want to categorize the teams with their matches
+ ![image](https://user-images.githubusercontent.com/73028420/136691422-59984852-0e03-44af-9a7b-2f66da1a9195.png)
+
+## AFTER ARRAY MANIPULATION MADE THE INFORMATION TO LOOK LIKE THIS
+![image](https://user-images.githubusercontent.com/73028420/136691512-59e3a8aa-9183-464c-bbc5-1ba7e347f4cf.png)
+
+ 
  ## TEMPLATE BEFORE 
  ![image](https://user-images.githubusercontent.com/73028420/136662552-6e4c351f-ef22-4a30-bba6-669e453fc13b.png)
  
